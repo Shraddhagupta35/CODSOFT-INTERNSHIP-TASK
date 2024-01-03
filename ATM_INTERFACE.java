@@ -89,7 +89,7 @@ class ATM {
         account.withdraw(amount);
     }
 }
- public class Student {
+ public class ATM_INTERFACE {
     public static void main(String[] args) {
         BankAccount userAccount = new BankAccount(1000);
         ATM atm = new ATM(userAccount);
